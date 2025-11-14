@@ -1,0 +1,196 @@
+body{
+  padding:0 ;
+  margin:0 ;
+  box-sizing: border-box;
+  background-color:white  ;
+}
+
+*{
+   list-style: none;
+  text-decoration: none;
+}
+.navbar{
+  width:100% ;
+  background-color:rgb(189, 74, 70);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+ 
+}
+.navbar img{
+  height:100px;
+  width:10% ;
+  border-radius:50% ;
+border: 8px dashed white;
+   
+}
+#logo{
+ text-align:center;
+  font-size:50px ;
+  color:white;
+  font-style: italic;
+  margin-left:10% ;
+  margin-bottom:10% ;
+display: flex;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+    
+.navbar ul{
+width: auto;
+align-self: last baseline;
+margin-right: 10px;
+padding:10px;
+display: flex;
+justify-content: space-around;
+}
+
+.navbar ul li{
+ text-decoration: none;
+  display: inline-block; 
+  margin-right: 20px;
+}
+.navbar h2{
+  color:white ;
+}
+.navbar ul li a{
+  text-decoration: none;
+  margin-left:10px ;
+  font-size:22px;
+  font-weight: bold;
+  color:white;
+  }
+  
+  .navbar ul li a:hover{
+    color:yellow;
+     border-radius:5px ;
+     color:rgb(72, 2, 57) ; 
+    background-color:maroon ; 
+    padding:7px ;
+     
+  }
+
+.display{
+  width:50% ;
+  background-color:rgb(218, 212, 152); 
+ margin: auto;
+  margin-top:5%;
+ 
+}
+form {
+  width:70% ;
+  height:30% ;
+align-items: center;
+margin-left:15% ;
+text-align: center;
+
+  }
+  
+  
+  input[type=text], input[type=password] {
+   
+    padding:2%  ;
+    margin:5% 5% ;
+    display: inline-block;
+    border: 1px solid rgb(227, 47, 47);
+    box-sizing: border-box;
+   
+   
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color:rgb(62, 126, 205);  
+    color: white;
+    padding: 2% 2%;
+    margin:5% 4%;
+    border:none;
+    cursor: pointer;
+    width: 50%;
+    font-size:20px ;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+   background-color:rgb(3, 141, 141) ;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width:50%;
+    padding:2% 5%; 
+    background-color: #f33434;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: auto;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    align-items:center ;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 5%;
+    font-size:20px ;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    /* float: right; */
+    /* padding-top:; */
+    /* display: block; */
+    /* float: none; */
+    font-size: 20px;
+  }
+  
+.cancelbtn {
+      width: 50%;
+    }
+  /* style footer */
+footer{
+    width:100% ;
+    padding:2rem;
+    background-color:rgb(215, 163, 215) ;
+   margin-top:20px ;
+}
+.all-item{
+    /* border:2px solid rgb(7, 7, 8) ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item-list{
+    /* border:2px solid black; */
+    width:25% ;
+}
+.item-title{
+   font-style: italic;
+   font-size:30px ;
+   font-weight: 600;
+   /* min-height: 135px; */
+}
+.text{
+    font-family: "Dancing Script", cursive;
+   font-size:20px ;
+      
+}
+.item-list ul a{
+    color:black;
+}
+.item-list ul{
+    min-height:135px ;
+}
+ 
+  

@@ -1,0 +1,193 @@
+body{
+  padding:0 ;
+  margin:0 ;
+  box-sizing: border-box;
+  background-color:white  ;
+}
+
+*{
+   list-style: none;
+  text-decoration: none;
+}
+.navbar{
+  width:100% ;
+  background-color:rgb(189, 74, 70);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+ 
+}
+.navbar img{
+  height:100px;
+  width:100px ;
+  border-radius:50% ;
+border: 8px dashed white;
+   
+}
+#logo{
+ text-align:center;
+  font-size:50px ;
+  color:white;
+  font-style:italic;
+  margin-left:200px ;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+    
+
+.navbar ul{
+  width: auto;
+  align-self: last baseline;
+margin-right: 10px;
+padding:10px;
+display: flex;
+justify-content: space-around;
+}
+
+.navbar ul li{
+ text-decoration: none;
+  display: inline-block; 
+  margin-right: 20px;
+}
+.navbar h2{
+  color:white ;
+}
+.navbar ul li a{
+  text-decoration: none;
+  margin-left:10px ;
+  font-size:22px;
+  font-weight: bold;
+  color:white;
+  }
+  
+  .navbar ul li a:hover{
+    color:yellow;
+     border-radius:5px ;
+     /* color:rgb(72, 2, 57) ; */
+    background-color:maroon ; 
+     /* transform: scale(1.5); */
+     padding:7px ;
+     
+  }
+
+.container .about{
+  width:85% ;
+  margin: auto;
+  text-align: center;
+
+}
+.container .about h1{
+  color:brown;
+  font-size:50px;
+  margin-top: 50px;
+   
+}
+.wrapper{
+  width:85% ;
+  margin:50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content{
+  width:50% ;
+  margin:0px 25px;
+
+}
+.content h3{
+font-size:50px ;
+color: rgb(255, 136, 0);
+}
+.content p{
+color:black;
+font-size:20px ;
+line-height:1.5 ;
+margin-top:10px ;
+}
+.content .btn{
+  position:relative ;
+  margin-top: 30px;
+  border:2px solid black;
+  font-size:20px ;
+  font-weight: 600;
+  color: black;
+  padding:10px ;
+  background-color: rgb(142, 238, 238);
+  cursor: pointer;
+}
+.content .btn:hover{
+background-color: aqua;
+border-color:white ;
+}
+
+.image{
+  width: 50%;
+  transition:0.5s ease ;
+}
+
+.image:hover{
+  transform: translateY(10px);
+}
+.image img{
+  width:100% ;
+  height:auto;
+}
+
+  
+    /* style footer */
+  footer{
+      width:100% ;
+      padding:2rem;
+      background-color:rgb(215, 163, 215) ;
+     margin-top:20px ;
+  }
+  .all-item{
+      /* border:2px solid rgb(7, 7, 8) ; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+  }
+  
+  .item-list{
+     
+      width:25% ;
+  }
+  .item-title{
+    font-style: italic;
+    font-size:30px ;
+    font-weight: 600;
+  
+  }
+  .text{
+    font-family: "Dancing Script", cursive;
+    font-size:20px ;
+        
+  }
+  .item-list ul a{
+    color:black;
+  }
+  .item-list ul{
+    min-height:135px ;
+  }
+@media screen and (max-width:768px){
+  .navbar{
+    width:100% ;
+  }
+  .wrapper{
+    flex-direction: column;
+    margin-top:auto;
+  }
+  .container .about h1{
+  font-size:50px;
+  }
+  .content, .image{
+    width: 100%;
+    margin-top:20px;
+  }
+}
+   
+    

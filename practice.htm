@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        height: 200px;
+        width: 300px;
+    }
+    .black{
+        background-color: gray;
+    }
+    .blue{
+        background-color: coral;
+        display: none;
+    }
+    .load{
+        background-color: pink;
+        width: fit-content;
+        height: fit-content;
+        padding: 20px;
+    }
+
+
+</style>
+<body>
+    <div class="black">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam, optio impedit velit officiis facilis voluptatem dicta ullam id aut veritatis quos omnis temporibus? Dolore, id. Esse nihil vel exercitationem itaque architecto nesciunt doloribus ut asperiores eligendi illum recusandae sed incidunt autem sint dolor libero ab commodi, iure qui distinctio accusantium. Non odio nobis c
+    </div>
+    <div class="blue" id="blue">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis quaerat dolore ex voluptate placeat ratione labore odio. Inventore illo illum dolores excepturi molestiae, repellat cupiditate voluptas sit? Ullam praesentium vitae atque! Cupiditate illum dolore perspiciatis a fuga tempore dicta repudiandae. Ex nam, tempora minus cupiditate natus aliquam unde sapiente!
+    </div>
+    <button id="load" onclick="display()" >
+        Load More
+    </button>    
+    <script>
+        function display(){
+            document.getElementById("blue").style.display = "block";
+        };
+    </script>
+</body>
+</html>

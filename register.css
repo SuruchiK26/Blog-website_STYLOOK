@@ -1,0 +1,74 @@
+body{
+    padding:0 ;
+    margin:0 ;
+    box-sizing: border-box;
+    background-color:white  ;
+}
+
+*{
+     list-style: none;
+    text-decoration: none;
+}
+.navbar{
+    width:100% ;
+    height: auto;
+    background-color:rgb(189, 74, 70);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+.navbar img{
+    height:100px;
+    width:100px;
+    border-radius:50% ;
+    border: 8px dashed white;
+     margin-left:10px ;
+}
+#logo{
+   text-align:center;
+    font-size:50px ;
+    color:white;
+    font-style: italic;
+    margin-left:15%;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+      
+
+.navbar ul{
+    width: auto;
+    align-self: last baseline;
+  margin-right: 2%;
+  padding:10px;
+  display: flex;
+  justify-content: space-around;
+}
+ 
+.navbar ul li{
+   text-decoration: none;
+    display: inline-block; 
+    margin-right: 20px;
+}
+.navbar h2{
+    color:white ;
+}
+.navbar ul li a{
+text-decoration: none;
+/* margin-left:10% ; */
+font-size:22px;
+font-weight: bold;
+color:white;
+}
+
+.navbar ul li a:hover{
+  color:yellow;
+   border-radius:5px ;
+   /* color:rgb(72, 2, 57) ; */
+  background-color:maroon ; 
+   /* transform: scale(1.5); */
+   padding:7px ;
+   
+}
