@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="register.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,17 +23,97 @@
 </head>
 
 <body>
+
+    <!-- NAVBAR -->
     <div class="navbar">
         <img src="../Resources/fashion image.png">
-        <h2 id="logo">MY&nbsp; STYLOOK</h2>
-     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="allpost.html">All Posts</a></li>
-        <li><a href="login.html">Log In</a></li>
-        <li><a href="#">Register</a></li>
-     </ul>
+        <h2 id="logo">MY STYLOOK</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="allpost.html">All Posts</a></li>
+          <li><a href="login.html">Log In</a></li>
+          <li><a href="register.html">Register</a></li>
+        </ul>
     </div>
-    
+
+    <!-- REGISTER FORM -->
+    <div class="display">
+
+        <form>
+
+            <h1>Create Account</h1>
+
+            <div class="container">
+
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter Full Name" required>
+
+                <label>Email</label>
+                <input type="email" placeholder="Enter Email" required>
+
+                <label>Username</label>
+                <input type="text" placeholder="Choose Username" required>
+
+                <label>Password</label>
+                <input type="password" placeholder="Create Password" required>
+
+                <label>Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" required>
+
+                <button type="submit">Register</button>
+
+                <p class="login-link">
+                    Already have an account? <a href="login.html">Login here</a>
+                </p>
+
+            </div>
+
+        </form>
+
     </div>
-    </label>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="all-item">
+
+            <div class="item-list">
+                <p class="item-title">My Stylook</p>
+                <p class="text">Hello Ladies, I welcome you all to my Style Blog.</p>
+                <p class="text">Follow us! We are here to style you out.</p>
+            </div>
+
+            <div class="item-list">
+                <p class="item-title">@Feedback!</p>
+                <ul>
+                    <li><i class="bi bi-chat-right-text-fill"></i>
+                        <a href="#">Give your feedback here</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="item-list">
+                <p class="item-title">Social</p>
+                <ul>
+                    <li><a href="https://www.instagram.com/suruchi5759"><i class="bi bi-instagram"></i> Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/suruchi-kumari-0017a528b"><i class="bi bi-linkedin"></i> Linkedin</a></li>
+                    <li><a href="https://x.com/Suruchi44132039"><i class="bi bi-twitter"></i> Twitter</a></li>
+                </ul>
+            </div>
+
+            <div class="item-list">
+                <p class="item-title">Contact</p>
+                <ul>
+                    <li><i class="bi bi-envelope-fill"></i> sk9113115311@gmail.com</li>
+                    <li><i class="bi bi-telephone-fill"></i> +91 9113115311</li>
+                    <li><i class="bi bi-house-door-fill"></i> Kurud-road, Kohka, Bhilai, CG</li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
+
+

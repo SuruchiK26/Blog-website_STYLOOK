@@ -24,7 +24,7 @@
 <body>
     <div class="navbar">
         <img src="../Resources/fashion image.png">
-        <h2 id="logo">MY&nbsp; STYLOOK</h2>
+        <h2 id="logo">MY STYLOOK</h2>
      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -130,12 +130,24 @@
 </div>
 <div id="load-more">Load More</div>
 
-<div class="profile">
+<!-- <div class="profile">
     <img src="../Resources/IMG-20210517-WA0080.jpg">
     <h4>SURUCHI &nbsp; KUMARI</h4>
     <h5>Frontend Developer</h5>
     <p> I am a 2nd year b.tech student. It's my passion to influence</p>
+</div> -->
+
+<div class="profile">
+    <img src="../Resources/IMG-20210517-WA0080.jpg" alt="Profile Photo">
+    <h4>SURUCHI KUMARI</h4>
+    <h5>Frontend Developer</h5>
+    <p>
+        I am a passionate frontend developer and a 2nd-year B.Tech student.
+        I love building clean, responsive, and user-friendly websites.
+        I enjoy turning creative ideas into real web designs using HTML, CSS, and JavaScript.
+    </p>
 </div>
+
 
 <footer>
     <div class="all-item">
@@ -169,18 +181,38 @@
                 <li><a href="#"><i class="bi bi-house-door-fill"></i>kurud-road, kohka, Bhilai, Chhattisgarh, India</a></li>
                 
             </ul>
-         </div> 
+        </div> 
     </div>
 </footer>
 
 
 
-<!-- <script>
-   
-    const loadmore = document.querySelector("#load-more").style.display = "block";
-    let currentItems =3;
-    loadmore.addEventListener('click'.)
-</script> -->
+<script>
+    let currentItem = 3;
+    const cards = document.querySelectorAll(".card");
+    const loadMoreBtn = document.getElementById("load-more");
+
+    // Show initial 3 cards
+    for (let i = 0; i < currentItem; i++) {
+        cards[i].classList.add("show");
+    }
+
+    loadMoreBtn.addEventListener("click", function () {
+        for (let i = currentItem; i < currentItem + 3; i++) {
+            if (cards[i]) {
+                cards[i].classList.add("show");
+            }
+        }
+
+        currentItem += 3;
+
+        // Hide button if no more items left
+        if (currentItem >= cards.length) {
+            loadMoreBtn.style.display = "none";
+        }
+    });
+</script>
+
 
 
 

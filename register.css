@@ -6,7 +6,7 @@ body{
 }
 
 *{
-     list-style: none;
+    list-style: none;
     text-decoration: none;
 }
 .navbar{
@@ -16,18 +16,17 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-   
+
 }
 .navbar img{
     height:100px;
     width:100px;
     border-radius:50% ;
     border: 8px dashed white;
-     margin-left:10px ;
+    margin-left:10px ;
 }
 #logo{
-   text-align:center;
+    text-align:center;
     font-size:50px ;
     color:white;
     font-style: italic;
@@ -36,39 +35,128 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-      
-
+    
 .navbar ul{
     width: auto;
     align-self: last baseline;
-  margin-right: 2%;
-  padding:10px;
-  display: flex;
-  justify-content: space-around;
+    margin-right: 2%;
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
 }
- 
 .navbar ul li{
-   text-decoration: none;
+    text-decoration: none;
     display: inline-block; 
     margin-right: 20px;
 }
 .navbar h2{
     color:white ;
 }
-.navbar ul li a{
-text-decoration: none;
-/* margin-left:10% ; */
-font-size:22px;
-font-weight: bold;
-color:white;
+.navbar ul li a {
+  padding: 7px;   /* added */
+  text-decoration: none;
+  margin-left:10px;
+  font-size:22px;
+  font-weight:bold;
+  color:white;
 }
 
-.navbar ul li a:hover{
+.navbar ul li a:hover {
   color:yellow;
-   border-radius:5px ;
-   /* color:rgb(72, 2, 57) ; */
-  background-color:maroon ; 
-   /* transform: scale(1.5); */
-   padding:7px ;
-   
+  background-color:maroon;
+  border-radius:5px;
 }
+
+/* REGISTER BOX */
+.display{
+  width:50%;
+  background-color:rgb(218, 212, 152);
+  margin:auto;
+  margin-top:4%;
+  padding:25px 0;
+  border-radius:10px;
+  box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+form{
+  width:70%;
+  margin:auto;
+  text-align:center;
+}
+
+h1{
+  font-size:35px;
+  margin-bottom:20px;
+  color:rgb(72, 2, 57);
+  font-family:"Pacifico", cursive;
+}
+
+input{
+  width:90%;
+  padding:12px;
+  margin:12px 0;
+  border:1px solid rgb(227, 47, 47);
+  border-radius:5px;
+  font-size:18px;
+}
+
+/* BUTTON */
+button{
+  width:90%;
+  background-color:rgb(62, 126, 205);
+  color:white;
+  padding:12px 0;
+  border:none;
+  font-size:20px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+button:hover{
+  background-color:rgb(3, 141, 141);
+}
+
+/* Login link */
+.login-link{
+  margin-top:10px;
+  font-size:18px;
+}
+
+.login-link a{
+  color:rgb(72, 2, 57);
+  font-weight:bold;
+}
+
+/* FOOTER */
+footer{
+    width:100%;
+    padding:2rem;
+    background-color:rgb(215, 163, 215);
+    margin-top:30px;
+}
+
+.all-item{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.item-list{
+    width:22%;
+}
+
+.item-title{
+    font-style:italic;
+    font-size:30px;
+    font-weight:600;
+}
+
+.text{
+    font-family:"Dancing Script", cursive;
+    font-size:20px;
+}
+
+.item-list ul a{
+    color:black;
+}
+
